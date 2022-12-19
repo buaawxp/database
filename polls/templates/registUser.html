@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<body>
+<form action="/polls/regist_user/" method = "post">
+{% csrf_token %}
+    <p><label>用户名：</label><input name="id" /></p>
+    <p><label>密码：</label><input name="pwd"/></p>
+    <p><label>昵称：</label><input name="name"/></p>
+    <p><label>头像：</label><input name="head"/></p>
+    <p><font color = "red", size = "5">点击下面的“注册”按钮即可完成本次注册</font></p>
+    <p><hr width="90%" color="red" /></p>
+    <input type="submit" value="注册">
+</form>
+</body>
+</html>
