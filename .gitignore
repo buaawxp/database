@@ -1,0 +1,5 @@
+
+database/
+*.xml
+.idea/misc.xml
+.idea/mysite.iml
